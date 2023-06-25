@@ -32,6 +32,6 @@ prevSlide.addEventListener("click", function () {
   }
 
   slides.forEach((slide, indx) => {
-    slide.style.transform = `translateX(${10 * (indx - curSlide)}%)`;
+    slide.style.transform = `translateX(${105 * (indx - curSlide)}%)`;
   });
 });
